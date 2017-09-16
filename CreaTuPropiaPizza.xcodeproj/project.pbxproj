@@ -12,6 +12,10 @@
 		831A46EA1F61AD1B0037E0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831A46E81F61AD1B0037E0D5 /* Main.storyboard */; };
 		831A46EC1F61AD1B0037E0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831A46EB1F61AD1B0037E0D5 /* Assets.xcassets */; };
 		831A46EF1F61AD1B0037E0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831A46ED1F61AD1B0037E0D5 /* LaunchScreen.storyboard */; };
+		83720BEB1F66F5A9000C8C3C /* SegundaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83720BEA1F66F5A9000C8C3C /* SegundaViewController.swift */; };
+		83720BEF1F670167000C8C3C /* TerceraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83720BEE1F670167000C8C3C /* TerceraViewController.swift */; };
+		D427C1691F6936DD00832D13 /* CuartaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D427C1681F6936DD00832D13 /* CuartaViewController.swift */; };
+		D4D3590E1F6D35F000574935 /* ConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3590D1F6D35F000574935 /* ConfirmacionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		831A46EB1F61AD1B0037E0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831A46EE1F61AD1B0037E0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		831A46F01F61AD1B0037E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83720BEA1F66F5A9000C8C3C /* SegundaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundaViewController.swift; sourceTree = "<group>"; };
+		83720BEE1F670167000C8C3C /* TerceraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceraViewController.swift; sourceTree = "<group>"; };
+		D427C1681F6936DD00832D13 /* CuartaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaViewController.swift; sourceTree = "<group>"; };
+		D4D3590D1F6D35F000574935 /* ConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmacionViewController.swift; path = ../ConfirmacionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				831A46E41F61AD1B0037E0D5 /* AppDelegate.swift */,
 				831A46E61F61AD1B0037E0D5 /* ViewController.swift */,
+				D4D3590D1F6D35F000574935 /* ConfirmacionViewController.swift */,
+				83720BEA1F66F5A9000C8C3C /* SegundaViewController.swift */,
 				831A46E81F61AD1B0037E0D5 /* Main.storyboard */,
+				D427C1681F6936DD00832D13 /* CuartaViewController.swift */,
+				83720BEE1F670167000C8C3C /* TerceraViewController.swift */,
 				831A46EB1F61AD1B0037E0D5 /* Assets.xcassets */,
 				831A46ED1F61AD1B0037E0D5 /* LaunchScreen.storyboard */,
 				831A46F01F61AD1B0037E0D5 /* Info.plist */,
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83720BEF1F670167000C8C3C /* TerceraViewController.swift in Sources */,
+				D427C1691F6936DD00832D13 /* CuartaViewController.swift in Sources */,
+				D4D3590E1F6D35F000574935 /* ConfirmacionViewController.swift in Sources */,
 				831A46E71F61AD1B0037E0D5 /* ViewController.swift in Sources */,
+				83720BEB1F66F5A9000C8C3C /* SegundaViewController.swift in Sources */,
 				831A46E51F61AD1B0037E0D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +320,7 @@
 				831A46F51F61AD1B0037E0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
