@@ -268,19 +268,19 @@ class CuartaViewController: UIViewController {
     
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             
-            let sigaVista = segue.destination as! ConfirmacionViewController
+            let sigaVista = segue.destination as! QuintaViewController
             sigaVista.transTamañoElegido4 = TamañoElegidoView4
             
-            let sigaVista2 = segue.destination as! ConfirmacionViewController
+            let sigaVista2 = segue.destination as! QuintaViewController
             sigaVista2.transMasaEscogida3 = masaEscogidaView4
             
-            let sigaVista3 = segue.destination as! ConfirmacionViewController
+            let sigaVista3 = segue.destination as! QuintaViewController
             sigaVista3.transQuesoEscogido2 = quesoEscogidoView4
             
-            let sigaVista4 = segue.destination as! ConfirmacionViewController
+            let sigaVista4 = segue.destination as! QuintaViewController
             sigaVista4.transIngredientes = ingredientes
             
-            let sigaVista5 = segue.destination as! ConfirmacionViewController
+            let sigaVista5 = segue.destination as! QuintaViewController
             sigaVista5.transContadorAccionesAcumulado4 = contadorAccionesAcumuladoView4
             
         }

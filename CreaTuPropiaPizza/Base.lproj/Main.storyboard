@@ -741,10 +741,10 @@
             </objects>
             <point key="canvasLocation" x="3245.5999999999999" y="138.98050974512745"/>
         </scene>
-        <!--Confirmacion View Controller-->
+        <!--Quinta View Controller-->
         <scene sceneID="Qgf-b4-74o">
             <objects>
-                <viewController id="Lac-uC-2jO" customClass="ConfirmacionViewController" customModule="CreaTuPropiaPizza" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Lac-uC-2jO" customClass="QuintaViewController" customModule="CreaTuPropiaPizza" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0db-lV-cb0"/>
                         <viewControllerLayoutGuide type="bottom" id="8bP-AD-h0O"/>
@@ -951,17 +951,17 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="avisoFaltaSelecciones" destination="6n9-tM-gkm" id="Amw-F5-GAR"/>
-                        <outlet property="confirmarBtn" destination="a77-WX-HY8" id="6fT-41-fzW"/>
-                        <outlet property="ingredientesElegidosLbl" destination="F4x-6r-SaU" id="Gdn-Aj-eiG"/>
-                        <outlet property="masaElegidaLbl" destination="DWz-GG-h91" id="dbs-BC-Sna"/>
-                        <outlet property="quesoElegidoLbl" destination="DHd-dY-XuW" id="hY5-LH-ncn"/>
-                        <outlet property="tamañoElegidoLbl" destination="WE1-yg-0g9" id="7He-0M-uVN"/>
+                        <outlet property="avisoFaltaSelecciones" destination="6n9-tM-gkm" id="6IU-ap-4vc"/>
+                        <outlet property="confirmarBtn" destination="a77-WX-HY8" id="Swv-xR-HqM"/>
+                        <outlet property="ingredientesElegidosLbl" destination="F4x-6r-SaU" id="wqF-Im-jXR"/>
+                        <outlet property="masaElegidaLbl" destination="DWz-GG-h91" id="zfa-wj-3lg"/>
+                        <outlet property="quesoElegidoLbl" destination="DHd-dY-XuW" id="GzI-uU-LfX"/>
+                        <outlet property="tamañoElegidoLbl" destination="WE1-yg-0g9" id="VpW-YW-cuM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8aI-7v-oZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3973.5999999999999" y="138.98050974512745"/>
+            <point key="canvasLocation" x="3978" y="139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dUq-gR-jgP">

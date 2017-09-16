@@ -15,7 +15,7 @@
 		83720BEB1F66F5A9000C8C3C /* SegundaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83720BEA1F66F5A9000C8C3C /* SegundaViewController.swift */; };
 		83720BEF1F670167000C8C3C /* TerceraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83720BEE1F670167000C8C3C /* TerceraViewController.swift */; };
 		D427C1691F6936DD00832D13 /* CuartaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D427C1681F6936DD00832D13 /* CuartaViewController.swift */; };
-		D4D3590E1F6D35F000574935 /* ConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3590D1F6D35F000574935 /* ConfirmacionViewController.swift */; };
+		D4D359141F6D4A8200574935 /* QuintaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D359131F6D4A8200574935 /* QuintaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		83720BEA1F66F5A9000C8C3C /* SegundaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundaViewController.swift; sourceTree = "<group>"; };
 		83720BEE1F670167000C8C3C /* TerceraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceraViewController.swift; sourceTree = "<group>"; };
 		D427C1681F6936DD00832D13 /* CuartaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaViewController.swift; sourceTree = "<group>"; };
-		D4D3590D1F6D35F000574935 /* ConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmacionViewController.swift; path = ../ConfirmacionViewController.swift; sourceTree = "<group>"; };
+		D4D359131F6D4A8200574935 /* QuintaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuintaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +62,9 @@
 		831A46E31F61AD1B0037E0D5 /* CreaTuPropiaPizza */ = {
 			isa = PBXGroup;
 			children = (
+				D4D359131F6D4A8200574935 /* QuintaViewController.swift */,
 				831A46E41F61AD1B0037E0D5 /* AppDelegate.swift */,
 				831A46E61F61AD1B0037E0D5 /* ViewController.swift */,
-				D4D3590D1F6D35F000574935 /* ConfirmacionViewController.swift */,
 				83720BEA1F66F5A9000C8C3C /* SegundaViewController.swift */,
 				831A46E81F61AD1B0037E0D5 /* Main.storyboard */,
 				D427C1681F6936DD00832D13 /* CuartaViewController.swift */,
@@ -151,9 +151,9 @@
 			files = (
 				83720BEF1F670167000C8C3C /* TerceraViewController.swift in Sources */,
 				D427C1691F6936DD00832D13 /* CuartaViewController.swift in Sources */,
-				D4D3590E1F6D35F000574935 /* ConfirmacionViewController.swift in Sources */,
 				831A46E71F61AD1B0037E0D5 /* ViewController.swift in Sources */,
 				83720BEB1F66F5A9000C8C3C /* SegundaViewController.swift in Sources */,
+				D4D359141F6D4A8200574935 /* QuintaViewController.swift in Sources */,
 				831A46E51F61AD1B0037E0D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
